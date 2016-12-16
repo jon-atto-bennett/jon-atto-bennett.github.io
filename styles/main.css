@@ -1,7 +1,9 @@
 /** {
   border: 1px solid red !important;
 }*/
-
+* {
+  background-image: url("../images/sayagata-400px.png");
+}
 html {
   margin: 0px;
   height: 100%;
@@ -20,12 +22,12 @@ main {
   height: 300px;
 }
 
-.hero {
+/*.hero {
   background-image: url(../images/first_step.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   height:100vh;
-}
+}*/
 
 header {
   text-align: center;
@@ -45,6 +47,6 @@ a:hover {
 }
 
 footer {
-  color: white;
+  /*color: white;*/
   margin-top: 40%;
 }
