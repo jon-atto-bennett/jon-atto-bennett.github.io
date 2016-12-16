@@ -34,6 +34,24 @@ header {
   height: 100%;
   position: relative;
 }
+/*#background {
+  background: url(../images/sayagata-400px.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}*/
+/*#blog-container {
+  /*height: 500px;*/
+  /*background-image: url(../images/sayagata-400px.png);
+}*/
+
+h5, h6 {
+  color: white;
+  margin-bottom: 0px;
+}
+
 
 a {
   color: white;
