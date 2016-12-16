@@ -42,13 +42,13 @@ header {
   height: 100%;
   position: relative;
 }*/
-/*#blog-container {
-  /*height: 500px;*/
-  /*background-image: url(../images/sayagata-400px.png);
-}*/
+#blog-container {
+  color: white;
+}
+
+
 
 h5, h6 {
-  color: white;
   margin-bottom: 0px;
 }
 
