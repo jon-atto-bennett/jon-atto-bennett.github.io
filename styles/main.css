@@ -1,33 +1,22 @@
 /** {
   border: 1px solid red !important;
 }*/
-* {
+/** {
   background-image: url("../images/sayagata-400px.png");
-}
-html {
-  margin: 0px;
+}*/
+
+html,body {
   height: 100%;
-  width: 100%;
-
 }
 
-body {
-  margin: 0px;
+.container {
+  position: relative;
   min-height: 100%;
-  width: 100%;
-
 }
 
 main {
-  height: 300px;
+  text-align: center;
 }
-
-/*.hero {
-  background-image: url(../images/first_step.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  height:100vh;
-}*/
 
 header {
   text-align: center;
@@ -37,9 +26,18 @@ header {
   text-align: center;
 }
 
+#hero-image {
+  background: url(../images/First_Step.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
 a {
-  /*color: white;
-  text-decoration: none;*/
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
@@ -47,6 +45,7 @@ a:hover {
 }
 
 footer {
-  /*color: white;*/
-  margin-top: 40%;
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
