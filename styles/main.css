@@ -1,10 +1,6 @@
-* {
-  border: 1px solid red !important;
-}
 /** {
-  background-image: url("../images/sayagata-400px.png");
+  border: 1px solid red !important;
 }*/
-
 html,body {
   height: 100%;
 }
@@ -34,19 +30,25 @@ header {
   height: 100%;
   position: relative;
 }
-/*#background {
-  background: url(../images/sayagata-400px.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  position: relative;
-}*/
+
 #blog-container {
   color: white;
 }
 
-h5, h6 {
+#blog-contents {
+  text-align: justify;
+  background-image: url("../images/sayagata-400px.png");
+}
+
+.button {
+  color: white;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+  h6 {
   margin-bottom: 0px;
 }
 
