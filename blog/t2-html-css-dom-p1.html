@@ -1,52 +1,80 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-  <title>Udacity Reflection - P1</title>
+  <title>Udacity Reflection - Part 1</title>
   <meta charset="UTF-8">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+  rel="stylesheet" type="text/css">
   <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-  <h1>Udacity Reflection - Part 1</h1>
-  <h2>A reflection on what was learnt from Udacity Lesson 1</h2>
-  <h3 class="center">9 December 2016</h3>
+  <div class="container">
+    <header>
+      <div class="row" id="hero-image">
+        <h1>THE FIRST STEP</h1>
+        <a class="button" href="blog-index.html">BLOG</a>
+        <a class="button" href="#">BIO</a>
+        <a class="button" href="#">PROJECTS</a>
+      </div>
+    </header>
 
-  <h3> My first wishlist of design and structural features for my site</h3>
-  <div class="list">
-    <ul>
-      <li>Use of an eye catching font</li>
-      <li>Use a "hero" image</li>
-      <li>Interesting use of typograpy size</li>
-      <li>More intersting use of font colour or shade</li>
-      <li>Incorporate icons</li>
-      <li>Better site navigation with links so consistent and easy to navigate</li>
-      <li>More interesting layout using boxes and creating a grid to arrange them</li>
-      <li>Make the page responsive to size changes</li>
-      <li>Consistency of design throughout site</li>
-      <li>A semi-flat design, flat enough so quick to load and easy to read but find a way to incorporate some depth e.g. use of shadow</li>
-      <li>Add images where appropriate</li>
-    </ul>
+    <main id="blog-contents">
+      <div class="row" >
+        <div class="offset-by-two eight columns">
+          <h3>Udacity Reflection - Part 1</h3>
+          <h5>A reflection on what was learnt from Udacity Lesson 1</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-by-two eight columns">
+          <h6> My first wishlist of design and structural features for my site</h6>
+          <div class="list">
+            <ul>
+              <li>Use of an eye catching font</li>
+              <li>Use a "hero" image</li>
+              <li>Interesting use of typograpy size</li>
+              <li>More intersting use of font colour or shade</li>
+              <li>Incorporate icons</li>
+              <li>Better site navigation with links so consistent and easy to navigate</li>
+              <li>More interesting layout using boxes and creating a grid to arrange them</li>
+              <li>Make the page responsive to size changes</li>
+              <li>Consistency of design throughout site</li>
+              <li>A semi-flat design, flat enough so quick to load and easy to read but find a way to incorporate some depth e.g. use of shadow</li>
+              <li>Add images where appropriate</li>
+            </ul>
+          </div>
+
+
+          <h6>A non-technical HTML, CSS and DOM analogy</h6>
+          <p>
+            If we were are going to perform a play the starting point is the script. This gives us the fundamental elements of the play, the characters, the lines and the order in which everything happens. This what HTML does, it provides content with order and structure. That alone however does not make a good play, it needs set design, costume design and interpretation of the dialogue so that it makes sense and fulfills its purpose i.e. being entertaining, thought provoking etc. This is the CSS function, it gives style to the HTML to bring the page to life. Now the DOM (Domain Object Model)is a bit trickier to fit into this analogy but here goes. Think of it as the final production of the play and the browser as the director, all the components are there, the script, the set etc. but it is the directors job to look at everything and organise it to present to the audience. The browser reads the HTML and CSS and creates the DOM to present the page to be viewed.
+          </p>
+
+          <h6>What is meant by boxifying design</h6>
+          <p>
+            Boxifying a webpage design means breaking its design elements into a series of boxes by drawing an outline around them. This can be done using a graphical application or by printing out the page and using a pencil to draw the boxes. The most important or biggest design elemnts should be boxed first and then the next important etc. until all the design elements are boxed. By breaking the design down like this the developer can create the page in managable steps, one box at time.
+          </p>
+
+          <h6>What is the box model</h6>
+          <p>
+             <img class="textwrap" src="../images/boxmodel.jpg" alt="The Box Model"> The end result of boxifying a design is to have all the HTML elements in a box. The box model is the specification that defines the box attributes. The attributes are the size of the box itself. the padding, the border and the margin and determined by height and width which can be expessed as number of pixels or a percenatage.
+          </p>
+        </div>
+      </div>
+
+      <footer id="blog-footer">
+        <div class="row">
+            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
+        </div>
+      </footer>
+    </main>
   </div>
-
-
-  <h3>A non-technical HTML, CSS and DOM analogy</h3>
-  <p>
-    If we were are going to perform a play the starting point is the script. This gives us the fundamental elements of the play, the characters, the lines and the order in which everything happens. This what HTML does, it provides content with order and structure. That alone however does not make a good play, it needs set design, costume design and interpretation of the dialogue so that it makes sense and fulfills its purpose i.e. being entertaining, thought provoking etc. This is the CSS function, it gives style to the HTML to bring the page to life. Now the DOM (Domain Object Model)is a bit trickier to fit into this analogy but here goes. Think of it as the final production of the play and the browser as the director, all the components are there, the script, the set etc. but it is the directors job to look at everything and organise it to present to the audience. The browser reads the HTML and CSS and creates the DOM to present the page to be viewed.
-  </p>
-
-  <h3>What is meant by boxifying design</h3>
-  <p>
-    Boxifying a webpage design means breaking its design elements into a series of boxes by drawing an outline around them. This can be done using a graphical application or by printing out the page and using a pencil to draw the boxes. The most important or biggest design elemnts should be boxed first and then the next important etc. until all the design elements are boxed. By breaking the design down like this the developer can create the page in managable steps, one box at time.
-  </p>
-
-  <h3>What is the box model</h3>
-  <p>
-     <img class="textwrap" src="../images/boxmodel.jpg" alt="The Box Model"> The end result of boxifying a design is to have all the HTML elements in a box. The box model is the specification that defines the box attributes. The attributes are the size of the box itself. the padding, the border and the margin and determined by height and width which can be expessed as number of pixels or a percenatage.
-  </p>
-
-  <h3 class="center"><a href="../index.htm">Home</a></h3>
-
 
 </body>
 

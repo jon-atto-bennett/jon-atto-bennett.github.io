@@ -46,6 +46,11 @@ header {
   color: white;
 }
 
+.textwrap {
+  float: left;
+  margin: 10px;
+}
+
 h6 {
   font-weight: bold;
 }

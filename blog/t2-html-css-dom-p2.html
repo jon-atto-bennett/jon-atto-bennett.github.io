@@ -1,52 +1,80 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-  <head>
-    <title>Udacity Reflection - P2</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
+<head>
+  <title>Udacity Reflection - P2</title>
+  <meta charset="UTF-8">
 
-  <body>
-    <h1>Udacity Reflection - Part 2</h1>
-    <h2>A reflection on what was learnt from Udacity lesson 2</h2>
-    <h3 class="center">10 December 2016</h3>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+  rel="stylesheet" type="text/css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
 
-    <h3>What is a grid based design</h3>
-    <p>
-      Grid based design is where a grid consisting of rows and columns is used as a template on which the position of elements can be determined helping in their placement on the page. The norm is to work from top to bottom and left to right which the eye naturally follows (if your from a western culture).
-    </p>
-    <h3>Whats all the hype about responsive webpages?</h3>
-    <p>
-      They are a response to todays world where there are a large variety of devices with different screen sizes that can access the internet. A responsive webpage will adjust itself automatically according to the size of the screen or more accurately the window the page is in, displaying the content in an appropriate way. This is done by changing the attributes such as size of elements, their position or if they are shown at all.
-    </p>
-    <h3>What is semantic structure?</h3>
-    <p>
-       Semantic structure is where the HTML code is written in such a way that it conveys meaning when read. For example a semantic element would be nav meaning navigation,other examples are footer and article.
-    </p>
+</head>
 
-    <h3>Any other points you found interesting and want to reflect on</h3>
-    <p>
-      I found the following points interesting.
-    </p>
-    <ul>
-      <li>
-        Use of negative space. Having areas of white space on the page makes it less cluttered and easy to take in the content.
-      </li>
-      <li>
-        The use of Overflow to fit a lot of text into a small area by enabling the scroll feature.
-      </li>
-      <li>
-        Using media queries so that the page is responsive and adapts to the device it is being displayed on.
-      </li>
-      <li>
-        The need to be aware that your site will be viewed on different browsers and different versions and that you can use CSS resetting to account for this.
-      </li>
-    </ul>
+<body>
+  <div class="container">
+    <header>
+      <div class="row" id="hero-image">
+        <h1>THE FIRST STEP</h1>
+        <a class="button" href="blog-index.html">BLOG</a>
+        <a class="button" href="#">BIO</a>
+        <a class="button" href="#">PROJECTS</a>
+      </div>
+    </header>
 
+    <main id="blog-contents">
+      <div class="row" >
+        <div class="offset-by-two eight columns">
+          <h3>Udacity Reflection - Part 2</h3>
+          <h5>A reflection on what was learnt from Udacity lesson 2</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-by-two eight columns">
+          <h6>What is a grid based design</h6>
+          <p>
+            Grid based design is where a grid consisting of rows and columns is used as a template on which the position of elements can be determined helping in their placement on the page. The norm is to work from top to bottom and left to right which the eye naturally follows (if your from a western culture).
+          </p>
+          <h6>Whats all the hype about responsive webpages?</h6>
+          <p>
+            They are a response to todays world where there are a large variety of devices with different screen sizes that can access the internet. A responsive webpage will adjust itself automatically according to the size of the screen or more accurately the window the page is in, displaying the content in an appropriate way. This is done by changing the attributes such as size of elements, their position or if they are shown at all.
+          </p>
+          <h6>What is semantic structure?</h6>
+          <p>
+             Semantic structure is where the HTML code is written in such a way that it conveys meaning when read. For example a semantic element would be nav meaning navigation,other examples are footer and article.
+          </p>
 
-    <h3 class="center"><a href="../index.htm">Home</a></h3>
+          <h6>Any other points you found interesting and want to reflect on</h6>
+          <p>
+            I found the following points interesting.
+          </p>
+          <ul>
+            <li>
+              Use of negative space. Having areas of white space on the page makes it less cluttered and easy to take in the content.
+            </li>
+            <li>
+              The use of Overflow to fit a lot of text into a small area by enabling the scroll feature.
+            </li>
+            <li>
+              Using media queries so that the page is responsive and adapts to the device it is being displayed on.
+            </li>
+            <li>
+              The need to be aware that your site will be viewed on different browsers and different versions and that you can use CSS resetting to account for this.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-  </body>
+      <footer id="blog-footer">
+        <div class="row">
+            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+</body>
 
 </html>
