@@ -37,6 +37,8 @@ header {
 
 #blog-contents {
   text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
   background-image: url("../images/sayagata-400px.png");
 }
 
