@@ -51,6 +51,34 @@ header {
   margin: 10px;
 }
 
+#wf_mob_index {
+  TOP:35px;
+  LEFT:170px;
+  WIDTH:300px;
+  HEIGHT:400px;
+}
+
+#wf_desk_index {
+  TOP:35px;
+  LEFT:170px;
+  WIDTH:300px;
+  HEIGHT:400px;
+}
+
+#wf_mob_blog {
+  TOP:35px;
+  LEFT:170px;
+  WIDTH:300px;
+  HEIGHT:400px;
+}
+
+#wf_desk_blog {
+  TOP:35px;
+  LEFT:170px;
+  WIDTH:300px;
+  HEIGHT:400px;
+}
+
 h6 {
   font-weight: bold;
 }
