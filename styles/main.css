@@ -32,7 +32,7 @@ header {
 }
 
 #blog-container {
-  color: white;
+  text-align: center;
 }
 
 #blog-contents {
@@ -83,17 +83,21 @@ h6 {
   font-weight: bold;
 }
 
-  h6 {
+h6 {
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
 a:hover {
   color: black;
+}
+
+.main-link {
+  color: white;
 }
 
 footer {
