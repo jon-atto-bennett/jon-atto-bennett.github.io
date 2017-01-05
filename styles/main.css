@@ -1,7 +1,175 @@
 /** {
   border: 1px solid red !important;
 }*/
-html,body {
+
+/* Personal Flavour */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+/*body {
+  font-size: 16px;
+  letter-spacing: .05em;
+  color: #222222;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}*/
+h1,h2, h3{
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+h4, p {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 102px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* =Section general styling
+-------- */
+
+section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* =Hero
+-------- */
+
+.hero {
+  padding: 0;
+  min-height: 500px;
+  text-align: center;
+  position: relative;
+  background-color: #d56d4d; /* layer fill content */
+  color: white;
+
+}
+.hero-image {
+  background: url("../images/first_step_sized.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
+.hero p {
+  padding: 0 15%;
+}
+
+.text {
+  text-align: justify;
+}
+
+/* Work Filters */
+
+/*.work-filters {
+  list-style: none;
+}*/
+
+.work-filters li {
+  /*display: inline-block;*/
+  /*margin: 0 .5em;
+  font-size: 18px;
+  text-transform: uppercase;*/
+  /*font-family: "slim_joeregular";*/
+}
+
+/* Work items */
+
+.work-items {
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.work-items li {
+  /*position: relative;*/
+  overflow: hidden;
+  /*height: 360px;*/
+
+}
+
+.selfie {
+  overflow: hidden;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+
+@media (min-width: 694px) and (max-width: 950px) {
+  .introduction h4 {
+    font-size: 16px;
+  }
+
+  .introduction h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 550px) and (max-width: 694px) {
+  .introduction h4 {
+    font-size: 14px;
+  }
+
+  .introduction h3 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 811px) and (max-width: 1176px) {
+  .work-detail h3 {
+    font-size: 20px;
+  }
+  .work-detail p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 550px)  and (max-width: 811px) {
+  .work-detail h3 {
+    font-size: 14px;
+  }
+  .work-detail p {
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+/*Old CSS Style*/
+/*html,body {
   height: 100%;
 }
 
@@ -108,4 +276,4 @@ footer {
 
 #blog-footer {
   color: black;
-}
+}*/
