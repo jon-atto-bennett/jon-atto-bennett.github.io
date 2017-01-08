@@ -6,34 +6,50 @@
   <title>First Impressions</title>
   <meta charset="UTF-8">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
   rel="stylesheet" type="text/css">
   <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <div class="container">
-      <header>
-        <div class="row" id="hero-image">
-          <h1>THE FIRST STEP</h1>
-          <a class="button" href="blog-index.html">BLOG</a>
-          <a class="button" href="#">BIO</a>
-          <a class="button" href="#">PROJECTS</a>
-        </div>
-      </header>
-
-    <main id="blog-contents">
-      <div class="row">
-        <div class="offset-by-two eight columns">
-          <h3>First Impressions</h3>
-          <h5>A reflection on the EDA experience so far</h5>
-        </div>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
       </div>
-      <div class="row"  >
-        <div class="offset-by-two eight columns">
+    </div>
+  </section>
+
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class=" blog_pic five columns">
+          <img src="../images/reflection_sized.jpg" alt="reflection">
+        </div>
+        <div class="seven columns">
+          <h3>First Impressions</h3>
+          <h4>A reflection on the EDA experience so far</h4>
           <h6>What's your take on the DBC/EDA experience?</h6>
-          <p> The ethos of EDA is not something I have experienced before in previous learning or work environments but it definitely stikes a chord. The analogy of being a customer in the restaurant or part of the kitchen team expressed in Shereef's Fireside Chat is something I am familiar with through playing in bands, not all the members are of the same ability, have their own likes and ideas but in order to be a good band find a way to work together so that everyone gets something out of it.
+          <p>
+            The ethos of EDA is not something I have experienced before in previous learning or work environments but it definitely stikes a chord. The analogy of being a customer in the restaurant or part of the kitchen team expressed in Shereef's Fireside Chat is something I am familiar with through playing in bands, not all the members are of the same ability, have their own likes and ideas but in order to be a good band find a way to work together so that everyone gets something out of it.
+          </p>
           <h6>What are your impressions?</h6>
           <p>So far all good, the set up at EDA seems to encourage us to succeed and have a great experience while doing it.</p>
           <h6>How do you see yourself engaging with this type of culture?</h6>
@@ -42,16 +58,23 @@
           <p>I suppose my initial expectation of EDA was to facilitate my goal of becoming a developer, everything I have experienced with EDA up to now has met that expectation.
           <h6>Are you excited to participate in this kind of learning environment? Does it make you nervous?</h6>
           <p>Definetly excited and yes nervous too, mostly the uncertainty of the unknown and if I'll be up to the challenges, but I'm going to give it my best shot.
+          <!-- </h4> -->
         </div>
       </div>
+    </div>
+  </section>
 
-      <footer id="blog-footer">
-        <div class="row">
-            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
         </div>
-      </footer>
-    </main>
-  </div>
+      </div>
+    </div>
+  </section>
+
+
 
 </body>
 
