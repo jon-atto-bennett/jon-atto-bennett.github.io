@@ -6,7 +6,19 @@
   <title>Udacity Reflection - P2</title>
   <meta charset="UTF-8">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
   rel="stylesheet" type="text/css">
   <link href="../styles/main.css" rel="stylesheet" type="text/css">
@@ -14,25 +26,26 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="row" id="hero-image">
-        <h1>THE FIRST STEP</h1>
-        <a class="button" href="blog-index.html">BLOG</a>
-        <a class="button" href="#">BIO</a>
-        <a class="button" href="#">PROJECTS</a>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main id="blog-contents">
-      <div class="row" >
-        <div class="offset-by-two eight columns">
-          <h3>Udacity Reflection - Part 2</h3>
-          <h5>A reflection on what was learnt from Udacity lesson 2</h5>
-        </div>
-      </div>
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
       <div class="row">
-        <div class="offset-by-two eight columns">
+        <div class=" blog_pic five columns">
+          <img src="../images/css.jpg" alt="blog photo">
+        </div>
+        <div class="seven columns">
+          <h3>Udacity Reflection - Part 2</h3>
+          <h4>A reflection on what was learnt from Udacity lesson 2</h4>
           <h6>What is a grid based design</h6>
           <p>
             Grid based design is where a grid consisting of rows and columns is used as a template on which the position of elements can be determined helping in their placement on the page. The norm is to work from top to bottom and left to right which the eye naturally follows (if your from a western culture).
@@ -50,6 +63,7 @@
           <p>
             I found the following points interesting.
           </p>
+          <div class="list">
           <ul>
             <li>
               Use of negative space. Having areas of white space on the page makes it less cluttered and easy to take in the content.
@@ -65,15 +79,22 @@
             </li>
           </ul>
         </div>
-      </div>
-
-      <footer id="blog-footer">
-        <div class="row">
-            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
         </div>
-      </footer>
-    </main>
-  </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 </body>
 
