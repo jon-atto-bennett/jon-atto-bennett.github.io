@@ -6,7 +6,19 @@
   <title>Udacity Reflection - Part 1</title>
   <meta charset="UTF-8">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
   rel="stylesheet" type="text/css">
   <link href="../styles/main.css" rel="stylesheet" type="text/css">
@@ -14,25 +26,26 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="row" id="hero-image">
-        <h1>THE FIRST STEP</h1>
-        <a class="button" href="blog-index.html">BLOG</a>
-        <a class="button" href="#">BIO</a>
-        <a class="button" href="#">PROJECTS</a>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main id="blog-contents">
-      <div class="row" >
-        <div class="offset-by-two eight columns">
-          <h3>Udacity Reflection - Part 1</h3>
-          <h5>A reflection on what was learnt from Udacity Lesson 1</h5>
-        </div>
-      </div>
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
       <div class="row">
-        <div class="offset-by-two eight columns">
+        <div class=" blog_pic five columns">
+          <img src="../images/html.jpg" alt="blog photo">
+        </div>
+        <div class="seven columns">
+          <h3>Udacity Reflection - Part 1</h3>
+          <h4>A reflection on what was learnt from Udacity Lesson 1</h4>
           <h6> My first wishlist of design and structural features for my site</h6>
           <div class="list">
             <ul>
@@ -60,21 +73,27 @@
           <p>
             Boxifying a webpage design means breaking its design elements into a series of boxes by drawing an outline around them. This can be done using a graphical application or by printing out the page and using a pencil to draw the boxes. The most important or biggest design elemnts should be boxed first and then the next important etc. until all the design elements are boxed. By breaking the design down like this the developer can create the page in managable steps, one box at time.
           </p>
-
           <h6>What is the box model</h6>
           <p>
-             <img class="textwrap" src="../images/boxmodel.jpg" alt="The Box Model"> The end result of boxifying a design is to have all the HTML elements in a box. The box model is the specification that defines the box attributes. The attributes are the size of the box itself. the padding, the border and the margin and determined by height and width which can be expessed as number of pixels or a percenatage.
+            The end result of boxifying a design is to have all the HTML elements in a box. The box model is the specification that defines the box attributes. The attributes are the size of the box itself. the padding, the border and the margin and determined by height and width which can be expessed as number of pixels or a percenatage.
           </p>
+          <img src="../images/boxmodel.jpg" alt="The Box Model">
         </div>
       </div>
+    </div>
+  </section>
 
-      <footer id="blog-footer">
-        <div class="row">
-            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
         </div>
-      </footer>
-    </main>
-  </div>
+      </div>
+    </div>
+  </section>
+
+
 
 </body>
 
