@@ -6,7 +6,19 @@
   <title>Design to Web</title>
   <meta charset="UTF-8">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"        rel="stylesheet" type="text/css">
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
   rel="stylesheet" type="text/css">
   <link href="../styles/main.css" rel="stylesheet" type="text/css">
@@ -14,25 +26,26 @@
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="row" id="hero-image">
-        <h1>THE FIRST STEP</h1>
-        <a class="button" href="blog-index.html">BLOG</a>
-        <a class="button" href="#">BIO</a>
-        <a class="button" href="#">PROJECTS</a>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main id="blog-contents">
-      <div class="row" >
-        <div class="offset-by-two eight columns">
-          <h3>Design to Web</h3>
-          <h5>Web Design Concepts</h5>
-        </div>
-      </div>
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
       <div class="row">
-        <div class="offset-by-two eight columns">
+        <div class=" blog_pic five columns">
+          <img src="../images/design.jpg" alt="blog photo">
+        </div>
+        <div class="seven columns">
+          <h3>Design to Web</h3>
+          <h4>Web Design Concepts</h4>
           <h6>What's a responsive site and why it's important.</h6>
           <p>
             A resposive website is a site that will automatically display its content to fit the size of the screen it is being viewed on. Originally sites were designed to be viewed on a monitor or laptop but with the introduction of tablets and then the smart phone, sites had to be adapted to display properly on smaller screens. Initially different pages were served up according to the device type but now resposive websites are used where the site is designed to adapt to the size of the screen. It achieves this by using media queries to determine the size of the screen and then use the appropriate style so that the content is displayed to fit. It is important because smart phones are now the most popular way to view the internet and they come in many different sizes which need to be accomodated.
@@ -49,24 +62,42 @@
           <p>
             A wireframe is a basic design for a website page, composed of a series of boxes showing the main components and where they appear. It is used as an aid to design the page and to give a blue print for the coder. Below are my wirefames for my blog site.
           </p>
-            <img id="wf_mob_index" src="../images/wireframe-index-page-mobile.JPG" alt="Index Wireframe for Mobile">
-            <img id="wf_desk_index" src="../images/wireframe-index-page-desktop.JPG" alt="Index Wireframe for Mobile">
-            <img id="wf_mob_blog" src="../images/wireframe-blog-page-mobile.JPG" alt="Index Wireframe for Mobile">
-            <img id="wf_desk_blog" src="../images/wireframe-blog-page-desktop.JPG" alt="Index Wireframe for Mobile">
+              <img src="../images/wireframe-index-page-mobile.JPG" alt="Index Wireframe for Mobile">
+              <figure>
+                <figcaption>Fig 1. - Index wireframe for mobile</figcaption>
+              </figure>
+              <img src="../images/wireframe-index-page-desktop.JPG" alt="Index Wireframe for Desktop">
+              <figure>
+                <figcaption>Fig 2. - Index wireframe for Desktop</figcaption>
+              </figure>
+              <img src="../images/wireframe-blog-page-mobile.JPG" alt="Blog Wireframe for Mobile">
+              <figure>
+                <figcaption>Fig 3. - Blog wireframe for mobile</figcaption>
+              </figure>
+              <img src="../images/wireframe-blog-page-desktop.JPG" alt="Blog Wireframe for Desktop">
+              <figure>
+                <figcaption>Fig 4. - Blog wireframe for desktop</figcaption>
+              </figure>
             <h6>The aspects of the wireframes I found difficult to implement, and why.</h6>
             <p>
               My biggest problem with implementing the wireframe was my unfamiliarity with the skeleton framework. Although my design was quite simple I still had issues with elements being positioned where I wanted them. However although it took a while I did succeed in getting most of it and I'm sure with more practice it will become easier.
             </p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <footer id="blog-footer">
-        <div class="row">
-            <small class="copy">&copy; Copyright Jon Bennett 2016</small>
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
         </div>
-      </footer>
-    </main>
-  </div>
+      </div>
+    </div>
+  </section>
+
+
 
 </body>
 
