@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Javascript Basics</title>
+  <meta charset="UTF-8">
+
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+  rel="stylesheet" type="text/css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class=" blog_pic five columns">
+          <img src="../images/js.jpg" alt="javascript">
+        </div>
+        <div class="seven columns">
+          <h3>Javascript Basics</h3>
+          <h4>The First Steps in JS</h4>
+            <h6>How does JavaScript compare to HTML and CSS?</h6>
+            <p>
+              Javascript is a "client-side" programming language. Where HTML provides the content and CSS the style, Javascript provides the ability to "do stuff". It makes a web site interactive and is used to build web applications. Examples would be "pop up" boxes i.e. for user input such as logging in, slideshows, automatic content refresh, search functions, data input and return, calculations basically everything a programming language can do up to full blown applications such as games or ordering your Uber.
+            </p>
+            <h6>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h6>
+            <p>
+              Control flow and loops  dictate programmatically how the code runs under different conditions or until a certain condition is met. It uses if/else, switch, for and while statements to control what happens and how long for. An example could be the process of waking up:
+            </p>
+            <div class="list">
+              <ul>
+                <li> If it is a work day tomorrow - set the alarm for 7 a.m.</li>
+                <li>Else - do not set the alarm</li>
+                <li>While the alarm goes off</li>
+                <li>Switch - how tired am I</li>
+                <li>case1 - awake: Switch off alarm and leap out of bed</li>
+                <li>break</li>
+                <li>case2 -  tired: Hit the snooze button and grab another 5</li>
+                <li>break</li>
+                <li>case3 - sick: Switch off alarm and go back to sleep</li>
+                <li>break</li>
+                <li>Default - sleep throuh the alarm and be late for work</li>
+              </ul>
+            </div>
+            <h6>Explain the difference between accessing data from arrays and objects.</h6>
+            <p>
+              Data is accessed in an array using the index. So for myArray["Jon", "Bennett", "address"] the address is accessed by myArray[2] (important to note that the indexing starts at 0). Data in objects are accessed by their property name either using dot or bracket notation. So myObject = {firstName: "Jon", lastName: "Bennett", address: "Wellington"} and the data e.g first name, can be accessed by either myObject.firstName or myObject["firstName"].
+            </p>
+            <h6>Explain what functions are and why they are useful.</h6>
+            <p>
+              Functions are blocks of code that perform a task such as a calculation. They take in parameters, perform the task on them and then return a result. They are very useful because it saves having to repeat code for a task you just have to call the function with the necessery parameters.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
