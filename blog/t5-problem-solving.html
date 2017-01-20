@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Problem Solving</title>
+  <meta charset="UTF-8">
+
+  <!-- specific fonts
+  ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"
+  rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+  rel="stylesheet" type="text/css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <section id="hero" class="hero u-full-width">
+    <div class="hero-image"></div>
+    <div class="container centered">
+      <div class="twelve columns">
+        <h1>The First Step</h1>
+        <h2>My Journey to become a Web Developer</h2>
+        <a class="button" href="../index.html">A Step Back</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class=" blog_pic five columns">
+          <img src="../images/problem.jpg" alt="problem">
+        </div>
+        <div class="seven columns">
+          <h3>Problem Solving</h3>
+          <h4>How to deal with coding problems</h4>
+          <h6> Solving a coding problem</h6>
+          <p>
+              The problem was to write code so that at a chessboard made up of spaces and hashes would be printed out to the console. I knew that I would need a couple of loops, one to print each line and one to control how many lines were printed. However before I started coding I wrote down what I thought should happen in pseudocode, which is a mixture of english and coding syntax just to give an outline. Once I had done that I began to code, stopping at various points to run what I had so that I could get an output, using console.log(), that confirmed I was on the right track. When I got error codes I'd use them to review what I had  done and to correct the error, if I couldn't find the problem I would look at prevoius code examples to make a comparison. If still no joy I would turn to Google for help. Eventually by using this process I came to a final solution.
+          </P>
+          <p>
+            I felt pretty confident during this process that I would find a solution. By using pseudocode to have a general idea of what I was trying to do and then "chunking" the problem down into managable bits that I could work my way through.
+          </p>
+          <p>
+            I learnt that if you have a problem the best way to solve it is to break it down into managable steps. I learnt afterwards that I could use debugging such as in Chrome Dev tools to achieve what I had been doing manually and much more besides.
+          </p>
+
+           <h6>Reflect on how confident you feel using the problem solving techniques and process:</h6>
+           <div class="list">
+             <ul>
+               <li>Pseudocode<br>
+                 I feel confident with writing pseudocode for myself but not so much for other people to understand. That will take some practice.
+              </li>
+               <li>Trying something<br>
+                 I'm very much into trying something as soon as I can because I find the result will give me something to work with and allows me to break up the coding into managable bites.
+               </li>
+               <li>Rubber ducky method<br>
+                 I don't have a rubber ducky so I just talk to myself. It definetly helps to go through the issues and get what I'm trying to do clear in my head. Jotting notes down also helps.
+               </li>
+               <li>Reading error messages<br>
+                 Love 'em or hate 'em you definetly need them! They can be a cryptic and rarely tell you exactly what the problem is but they do point you in the right direction and slowly through experience I'm starting to get value out of them.
+               </li>
+               <li>Console.logging<br>
+                 I love console.logging, using it to find out what is going on in my code. I will however start to use debugging tools because they gives you far more control and save having to write unnecessery code.
+               </li>
+               <li>Googling<br>
+                 Sometimes great and other times rabbit hole inducing. Being specific in your search helps a lot and you start to pick up on sites where you have had success, which helps sort "the wheat from the chaff"
+               </li>
+               <li>Asking your peers for help<br>
+                 Not a problem although I like to give it a good go myself first.
+               </li>
+               <li>Asking coaches for help<br>
+                 See the answer above.</li>
+               <li>Improving your process with reflection<br>
+                 Reflection definetly helps, knowing what has worked and what hasn't is a valuable lesson for the next time. Reflection makes the most out of experience.
+               </li>
+             </ul>
+           </div>
+           <h6>Explain to your non-tech friend</h6>
+           <p>
+               Using the JS Array docs as a starting point, describe what these functions do in your own words:
+            </p>
+            <div class="list">
+            <ul>
+             <li>.map()<br>
+               The map() method creates a new array with the results of calling a function for every array element. It calls the function once for each element in an array in order. So if I had an array that contained [1,2,3,4] and called a function that multiplies by 5 I would get an array containing [5,10,15,20]
+             </li>
+             <li>.filter()<br>
+               The filter() method creates an array filled with all the array elements that pass a test provided by a function. So my array of [1,2,3,4] passed to function that tested to see if a number was divisible by 2  would result in an array containing [2,4]
+             </li>
+             <li>.reduce()<br>
+               The reduce() method reduces the array to a single value, it does this by executing a provided function for each value of the array (from left-to-right).
+               The return value of the function is stored in an accumulator (result/total).
+               So for my array [1,2,3,4,5]  passed to a function that adds numbers to get a total (i.e. Sum) the result would 15.
+             </li>
+           </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>&copy; 2016 WebDesign Jattob</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
