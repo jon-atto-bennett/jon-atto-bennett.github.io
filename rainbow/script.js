@@ -18,9 +18,8 @@ function randRange( minNum, maxNum) {
 // function to generate drops
 function createRain(opt) {
 if(opt=="run") {
-  playSound('rain.mp3')
 	 for( i=1;i<nbDrop;i++) {
-	    var dropLeft = randRange(550,1050);
+	    var dropLeft = randRange(460,950);
 	    var dropTop = randRange(-1000,1400);
 
 	    $('#window').append('<div class="drop" id="drop'+i+'"></div>');
@@ -114,19 +113,4 @@ function createRainbow(){
       context.fillStyle = '#00bcd4';
       context.fill();
       stopSound('rain.mp3')
-}
-
-//plays sounds
-function playSound(path) {
-
-  var audioElement = document.createElement('audio');
-  audioElement.setAttribute('src', path);
-  audioElement.play();
-}
-//dtops sounds
-function stopSound(path) {
-
-  var audioElement = document.createElement('audio');
-  audioElement.setAttribute('src', path);
-  audioElement.pause();
 }
